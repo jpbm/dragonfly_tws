@@ -1,0 +1,14 @@
+HOW TO RUN THIS:
+
+1. Set up amazon EC2 instance using the Stanford Convolutional Neural Network Course AMI that has caffe preinstalled. This instance still exists within my account, but is currently paused.
+
+2. Run the dream.py program, which is an endless while loop that checks for images in the 'input' folder on the remote server, transforms them using deep dream, then copies them into the 'output' folder. It will delete transformed images from the input folder.
+
+3. Run 'run_aws.sh' on local machine. This script ferries pictures from input to the remote server and fetches processed images from the output folder on the remote server. It has the ability of checking for internet connection and whether dream.py is running on remote server, as well as to get the IP address of the remote machine. 
+
+4. Use the screenshotting ipython notebook to make screenshots that wind up in the 'input' folder.
+
+5. use 'app.py' to display the images in the output folder using a Flask web app.
+
+
+The documents start_stop_aws... and make_movie explain the commandline commands for controlling the amazon instance and making movies respectively.

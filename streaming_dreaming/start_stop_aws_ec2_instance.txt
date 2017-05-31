@@ -1,0 +1,5 @@
+aws ec2 stop-instances --instance-ids i-0269590f8ef0838a1
+aws ec2 start-instances --instance-ids i-0269590f8ef0838a1
+
+# how to get the public ip:
+publicip=$(echo $(aws ec2 describe-instances --instance-ids i-0269590f8ef0838a1 --query 'Reservations[0].Instances[0].PublicIpAddress'))
