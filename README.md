@@ -2,6 +2,11 @@
 
 This is an archive of files and code that was involved in staging 'Dragonfly' at Tokyo Wonder Site in Shibuya in Spring 2017. 
 
+Andreas Greiner's page:
+http://www.andreasgreiner.com/works/dragonfly/?%2F=random
+
+(includes video)
+
 ## Do NOT attempt to tether drones.
 The [tethering] folder contains documentation of the experiments involved in flying the DJI Inspire 1 drone while supplying it with power from a ground tether. Do not attempt to do any of this yourself since there are substantial risks associated with it: if you do this wrong, and there are many ways in which it can go wrong, you can cause the batteries to explode violently, creating a fire that basically cannot be extinguished. Wiring up the power supply involves danger of electrocution and fire. The drone itself can inflict serious injuries through both its rotos and its sheer momentum in flight. The behavior of the drone can become unpredictable when it is flown indoors and on a tether. 
 
