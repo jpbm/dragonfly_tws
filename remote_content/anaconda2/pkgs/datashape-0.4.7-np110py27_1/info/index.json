@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64", 
+  "build": "np110py27_1", 
+  "build_number": 1, 
+  "depends": [
+    "multipledispatch >=0.4.7", 
+    "numpy 1.10*", 
+    "python 2.7*", 
+    "python-dateutil"
+  ], 
+  "license": "BSD", 
+  "name": "datashape", 
+  "platform": "linux", 
+  "subdir": "linux-64", 
+  "version": "0.4.7"
+}

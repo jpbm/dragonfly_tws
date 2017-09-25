@@ -1,0 +1,14 @@
+==> git log -n1 <==
+commit 3c120fe282fd54aea0e29939b795fd608517fff2
+Author: Phillip Cloud <cpcloud@gmail.com>
+Date:   Tue Sep 15 11:24:24 2015 -0700
+
+    Move to experimental types in the docs
+
+==> git describe --tags --dirty <==
+0.4.7
+
+==> git status <==
+# Not currently on any branch.
+nothing to commit, working directory clean
+
